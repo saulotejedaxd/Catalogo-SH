@@ -1,0 +1,10 @@
+name: Importar catálogo SH
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Esperando paquetes de fotografías verificados.'
